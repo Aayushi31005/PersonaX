@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background: #0B1020;
+  color: white;
+  font-family: Inter, sans-serif;
+}
+
+.react-flow__node {
+  border: none;
+  background: transparent;
+}
+
+.react-flow__edge-path {
+  stroke: rgba(255,255,255,0.2);
+  stroke-width: 2;
+}
+
+.react-flow__controls {
+  background: #12172A;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.react-flow__minimap {
+  background: #12172A;
+}
